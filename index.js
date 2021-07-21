@@ -128,10 +128,10 @@ console.log(joe.play());
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. global scope - 'this' will be the window/console object
+  2. implicit binding - 'this' is before the dot(s)
+  3. new binding - 'this' is the instance of the object that is created and returned
+  4. explicit binding - 'this' .call or .apply method
 */
 
 
